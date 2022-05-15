@@ -49,4 +49,3 @@ void making_request(int argc, char** argv){
   if (ec && ec != beast::errc::not_connected)
     throw beast::system_error{ec};
 }
-
